@@ -1,10 +1,8 @@
-tuple = ("hello", True, 5)
+tuple_ = ("hello", True, 5)
+new_element = input("Enter new element: ")
 
 def resizeTuple(item):
-    new_element = input("Enter new element: ")
-    added_tuple = (new_element,)
-    item = item+added_tuple
-    return item
+    item = (item,)
+    return tuple_+item
 
-
-print(resizeTuple(tuple))
+print(resizeTuple(new_element))
