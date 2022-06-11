@@ -6,3 +6,4 @@ def resizeTuple(item):
     return tuple_+item
 
 print(resizeTuple(new_element))
+print('Some')
